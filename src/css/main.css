@@ -1,0 +1,142 @@
+* {
+  color: antiquewhite;
+  background-color: #0e0c07;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border: 1px solid rgb(255, 146, 134);
+  border-radius: 2%;
+  padding: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  box-shadow: 0 0 5px #ffffff9f,
+              0 0 1px #ffacac86,
+              0 0 25px #ffa3a34b,
+              0 0 150px #ff89892d;
+}
+
+.input__row {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding-top: 2%;
+  gap: 10px;
+}
+
+.codes__container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; 
+}
+
+.valid-codes-table {
+  width: 40%;
+}
+
+.codes-table {
+  width: 40%;
+}
+
+.table__container {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.code__table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ffffff;
+  border-radius: 2%;
+  margin-top: 10%;
+  font-weight: bold;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 0 5px #ffffff9f,
+              0 0 1px #ffacac86,
+              0 0 15px #ffa3a34b,
+              0 0 50px #ff89892d;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff89898a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  color: #595959;
+  background-color: #2a2a2a;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #727272;
+}
+
+button:hover {
+  background-color: #ff8989;
+}
+
+button span {
+  font-size: inherit;
+  color: inherit;
+}
+
+.get__codes {
+  width: 250px;
+  margin-top: 10%;
+}
+
+input {
+  width: 150px;
+  height: 20px;
+  border: 1px solid #ffffff;
+  background-color: #312a2a;
+  text-align: center;
+  border-radius: 5px;
+  color: #ecc4d2;
+  transition: linear 0.5s;
+}
+
+input::placeholder {
+  color: #ff9b9b6d;
+}
+
+input:focus {
+  outline: none;
+  border: 1.5px solid #ff9b9b6d;
+  box-shadow: 0 0 5px #fff,
+              0 0 1px #ffacacdf,
+              0 0 5px #ffa3a3,
+              0 0 15px #ff8989;
+}
+
+.btn__copy, span {
+  margin-bottom: 10%;
+}
+
+.input__container, label, .input__row, li, .code__table {
+  background-color: #171713;
+}
